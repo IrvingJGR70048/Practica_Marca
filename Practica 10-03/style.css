@@ -1,0 +1,134 @@
+
+.header{
+    background-color: aqua;
+    display: inline-flex;
+    display:flex;
+    justify-content: space-between;
+
+}
+.titulo{
+    
+    height: 80px;
+}
+
+h1{
+
+  height: 100px;
+  box-sizing: border-box;
+  border: white 25px solid
+}
+
+
+.marca img{
+    float: left;
+    margin-right: 30px;
+
+}
+
+hr{
+    height: 2px; 
+    background: black; 
+    margin-bottom: 10px;
+}
+
+.horizontal{
+    justify-content: space-between;
+    display:flex;
+    padding: 0px;
+    margin: auto;
+    height: 30px;
+}
+
+.horizontal li{
+    border: 10px;
+    display: inline-flex;
+    padding: 0 10px;
+    
+}
+
+.banner{
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-image: url('');
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px #1c1a19;
+    position: relative;
+    width: 960px;
+    margin: auto;
+
+    }
+
+.banner__text-container{
+    height: 60px;
+    width: 960px;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px 0px 5px 5px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner__paragraph{
+    margin-left: 10px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.banner__button{
+    width: 115px;
+    height: 25px;
+    margin-right: 20px;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #760001;
+    color: #dde5ec;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 3px;
+    font-weight: 300;
+    transition: all 0.2s;
+}
+
+.section-info{
+    height: 222px;
+    width: 970px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+    
+    }
+    
+    .card__image{
+    width: 200px;
+    height: 100px;
+    align-content: center;
+    }
+    
+    .card__text{
+    font-size: 12px;
+    color: rgb(0,0,0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    }
+    
+    .card{
+    border: solid black 1px;
+    height: 250px;
+    width: 201px;
+    
+    }
+   
+
+   
